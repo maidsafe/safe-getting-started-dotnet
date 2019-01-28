@@ -22,7 +22,9 @@ namespace SafeTodoExample.Service
         private const string AppContainerListKey = "MySafeTodo";
         public const string AuthDeniedMessage = "Failed to receive Authentication.";
         private Session _session;
+#pragma warning disable CS0414
         private MDataInfo _mDataInfo;
+#pragma warning restore CS0414
 
         public bool IsSessionAvailable => _session != null;
 
@@ -192,7 +194,9 @@ namespace SafeTodoExample.Service
 
         #region Mock Authentication
 #if SAFE_APP_MOCK
+#pragma warning disable CS0649
         private Authenticator _authenticator;
+#pragma warning restore CS0649
 
         private async Task CreateAccountAsync()
         {

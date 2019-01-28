@@ -33,6 +33,7 @@ namespace SafetodoExample.Tests
                 var authViewModel = new MainPageViewModel();
                 await authViewModel.ConnectToNetworkAsync();
                 Assert.True(authViewModel.AppService.IsSessionAvailable);
+                await authViewModel.AppService.GetMdInfoAsync();
 
                 var todoItemsViewModel = new TodoItemsPageViewModel();
 
