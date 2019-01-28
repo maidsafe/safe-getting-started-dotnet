@@ -11,7 +11,9 @@ namespace App.Network
 #pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
         private static Session _session;
 
+#pragma warning disable 169
         private MDataInfo _mdinfo;
+#pragma warning restore 169
 
         public static void InitialiseSession(Session session)
         {
