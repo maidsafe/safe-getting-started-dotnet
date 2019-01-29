@@ -27,7 +27,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>net.maidsafe.SafeTodoExample</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>0.1.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
