@@ -55,7 +55,7 @@
       <Version>7.0.1</Version>
     </PackageReference>
     <PackageReference Include="MaidSafe.SafeApp">
-      <Version>0.2.0</Version>
+      <Version>0.2.1</Version>
     </PackageReference>
     <PackageReference Include="Rg.Plugins.Popup">
       <Version>1.1.5.180</Version>
