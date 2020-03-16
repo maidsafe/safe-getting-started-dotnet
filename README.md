@@ -8,7 +8,7 @@ This repository contains .Net Framework and Xamarin.Forms (Android, iOS) example
 
 ## Desktop example (.Net Framework)
 
-### Features 
+### Features
 
 Demonstrates:
  - Usage of the [MaidSafe.SafeApp](https://www.nuget.org/packages/MaidSafe.SafeApp) NuGet package to build a desktop app for the SAFE Network
@@ -35,7 +35,7 @@ Demonstrates:
  - Usage of the [MaidSafe.SafeApp](https://www.nuget.org/packages/MaidSafe.SafeApp) NuGet package to build a mobile (Android, iOS) application for the SAFE network
  - Modes of Authentication
      - Mock authentication using the mock Authenticator API
-     - Authentication using the [SAFE Authenticator](https://github.com/maidsafe/safe-authenticator-mobile) 
+     - Authentication using the [SAFE Authenticator](https://github.com/maidsafe/safe-authenticator-mobile)
  - Mock & non-mock versions
     - Developer can switch between mock and non mock library for testing and deployment
  - Mutable data
@@ -61,11 +61,13 @@ On Visual Studio 2017, you will need the following SDKs and workloads installed:
 
 Get your developer related questions clarified on the [SAFE Dev Forum](https://forum.safedev.org/). If you're looking to share any other ideas or thoughts on the SAFE Network you can reach out on the [SAFE Network Forum](https://safenetforum.org/).
 
+## Contributing
 
-## Contribution
+Want to contribute? Great :tada:
 
-Copyrights in the SAFE Network are retained by their contributors. No copyright assignment is required to contribute to this project.
+There are many ways to give back to the project, whether it be writing new code, fixing bugs, or just reporting errors. All forms of contributions are encouraged!
 
+For instructions on how to contribute, see our [Guide to contributing](https://github.com/maidsafe/QA/blob/master/CONTRIBUTING.md).
 
 ## License
 
